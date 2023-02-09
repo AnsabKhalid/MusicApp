@@ -90,9 +90,6 @@ public class Main {
             System.out.println("Track_No: " + artistSong.getTrack());
         }
 
-        dataSource.insertSongs("KING", "NemoTechno",
-                "Techno", 1);
-
         dataSource.close();
     }
 }
